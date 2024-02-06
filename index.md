@@ -6,10 +6,10 @@ title: Home
 <div id="intro-wrapper" class="l-text">
 	<div id="intro-title-wrapper">
 		<div id="intro-image-wrapper">
-			<img id="intro-image" src="/images/headshot_08_22.jpeg"></div>
+			<img id="intro-image" src="/images/outdoor_headshot.svg"></div>
 		<div id="intro-title-text-wrapper">
 			<h1 id="intro-title">Cade Lawson</h1>
-			<div id="intro-subtitle">I'm a Research Scientist at Apple</div>
+			<div id="intro-subtitle">Georgia State University</div>
 			<div id="intro-title-socials">
 				{% for link in site.data.social-links %}
 					{% if link.on-homepage == true %}
