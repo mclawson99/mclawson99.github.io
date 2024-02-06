@@ -22,8 +22,8 @@ title: Home
 	<!-- <hr class="l-middle home-hr"> -->
 	<div id="everything-else" class="l-middle">
 		<a href="Cade_Lawson_CV.pdf"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
-		<a href="{{ site.url }}/projects"><div><i class="fa fa-shapes icon icon-right-space"></i>Projects</div></a>
-		<a href="{{ site.url }}/everything-else"><div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div></a>
+		<a href="{{ site.url }}/projectsBREAK"><div><i class="fa fa-shapes icon icon-right-space"></i>Projects</div></a>
+		<a href="{{ site.url }}/everything-elseBREAK"><div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div></a>
 	</div>
 	<div>
 		Welcome! I am a Ph.D. student in the Department of Economics at Georgia State University. My research focuses on issues in <b>public economics</b>, especially those related to social mobility, the economics of education, and the social safety net.
