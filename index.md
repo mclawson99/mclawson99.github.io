@@ -26,7 +26,7 @@ title: Home
 		<a href="{{ site.url }}/everything-elseBREAK"><div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div></a>
 	</div>
 	<div>
-		Welcome! I am a Ph.D. student in the Department of Economics at Georgia State University. My research focuses on issues in <b>public economics</b>, especially those related to social mobility, the economics of education, and the social safety net.
+		Welcome! I am a Ph.D. student in the Department of Economics at Georgia State University <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/gsu.png">. My research focuses on issues in <b>public economics</b>, especially those related to social mobility, the economics of education, and the social safety net.
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
