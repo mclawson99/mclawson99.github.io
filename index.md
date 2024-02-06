@@ -35,7 +35,7 @@ title: Home
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
-		I received my BS in Economics and my MS in Data Analytics from Georgia Tech, where I was a research assistant in the <a href="https://datasciencepolicy.gatech.edu/">Data Science and Policy Lab</a> for 4 years. I've previously spent time as a research intern at the National Renewable Energy Lab and the Federal Reserve Bank of Boston. 
+		I received my BS in Economics and my MS in Data Analytics from Georgia Tech, where I was a research assistant in the <a href="https://datasciencepolicy.gatech.edu/">Data Science and Policy Lab</a> for 4 years. I've previously spent time as a research intern at the <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/nrel.png"> National Renewable Energy Lab and the <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/frb.png"> Federal Reserve Bank of Boston. 
   
 	</div>
 </div>
