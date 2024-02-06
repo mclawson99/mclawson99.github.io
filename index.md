@@ -26,15 +26,16 @@ title: Home
 		<a href="{{ site.url }}/everything-else"><div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div></a>
 	</div>
 	<div>
-		I design and develop interactive interfaces to help people <b>understand machine learning models</b> and data-driven systems. Besides building tools, I also create <b>data visualizations</b> and write interactive articles to simply communicate complex ideas.
+		Welcome! I am a Ph.D. student in the Department of Economics at Georgia State University. My research focuses on issues in <b>public economics</b>, especially those related to social mobility, the economics of education, and the social safety net.
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
-		I received my PhD from Georgia Tech where I worked with <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a> and <a href="http://va.gatech.edu/endert/">Alex Endert</a>. My dissertation on <a href="/dissertation">interactive interfaces for interpretability</a> won the <i>ACM SIGCHI Outstanding Dissertation Award</i> and was supported by a <i>NASA Space Technology Research Fellowship</i>.
+		I am a graduate research assistant in the <a href="https://gpl.gsu.edu/">Georgia Policy Labs</a>, where I work in the Metro Atlanta Policy Lab for Education. My research at GSU is supported by the National Science Foundation's Graduate Research Fellowship.  
+		
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
-		I have collaborated with designers, developers, artists, and scientists while working at <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/apple.svg"> Apple, <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/images/microsoft.svg"> Microsoft Research, <img class="intro-logo" style="width: 24px" src="/images/nasa.svg"> NASA Jet Propulsion Lab, and <img class="intro-logo" style="width: 24px;" src="/images/pnnl.svg"> Pacific Northwest National Lab.
+		I received my BS in Economics and my MS in Data Analytics from Georgia Tech, where I was a research assistant in the <a href="https://datasciencepolicy.gatech.edu/">Data Science and Policy Lab</a> for 4 years. I've previously spent time as a research intern at the National Renewable Energy Lab and the Federal Reserve Bank of Boston. 
 	</div>
 </div>
 
