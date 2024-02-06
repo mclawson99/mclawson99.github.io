@@ -40,6 +40,8 @@ title: Home
 	</div>
 </div>
 
+<!--
+
 <hr class="l-middle home-hr">
 
 <h2 class="feature-title">Featured <a href="/cv/#publications">Research Publications</a></h2>
@@ -128,6 +130,7 @@ title: Home
 	{% endfor %}
 </div>
 
+-->
 
 
 [gt]: http://www.gatech.edu "Georgia Tech"
