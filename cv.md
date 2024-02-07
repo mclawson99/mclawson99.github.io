@@ -6,24 +6,7 @@ jsarr:
 - js/scripts.js
 ---
 
-<div class="cv-image-links-wrapper">
-	<div class="cv-image-links">
-		{% for link in site.data.social-links %}
-			{% if link.cv-group == 1 %}
-				{% include cv-social-link.html link=link %}
-			{% endif %}
-		{% endfor %}
-	</div>
-	<div class="cv-image-links">
-		{% for link in site.data.social-links %}
-			{% if link.cv-group == 2 %}
-				{% include cv-social-link.html link=link %}
-			{% endif %}
-		{% endfor %}
-	</div>
-</div>
-
-## Teaching
+# Teaching
 
 {% for teach in site.data.teaching %}
 {% include cv/teaching.html teach=teach %}
