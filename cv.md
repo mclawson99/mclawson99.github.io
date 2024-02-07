@@ -1,24 +1,10 @@
 ---
-layout: cv
-title: CV
-permalink: cv/
+layout: teaching
+title: Teaching
+permalink: teaching/
 jsarr:
 - js/scripts.js
 ---
-
-<h1 id="cv-title"><a href="{{ site.url }}">Cade Lawson</a></h1>
-
-<div>
-I design and develop <b><span class="cv-vis">interactive interfaces</span></b> to help people <b><span class="cv-ai">understand machine learning</span></b> models and data-driven systems. Besides building tools, I also create data visualizations and write interactive articles to simply communicate complex ideas.
-</div>
-
-<div class="cv-spacer"></div>
-
-<div>
-I have collaborated with researchers, designers, developers, and artists while working at Apple, Microsoft Research, NASA Jet Propulsion Lab, and Pacific Northwest National Lab.
-</div>
-
-<div class="cv-spacer"></div>
 
 <div class="cv-image-links-wrapper">
 	<div class="cv-image-links">
