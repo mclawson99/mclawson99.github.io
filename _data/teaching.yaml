@@ -17,7 +17,7 @@
   description: "Held weekly office hours, one-on-one instructional sessions, and pre-exam review sessions for students." 
   ta: true
   
-  - institution: Georgia Institute of Technology
+- institution: Georgia Institute of Technology
   position: Undergraduate Teaching Assistant
   location: "Atlanta, GA" 
   year: Summer 2020 
@@ -27,7 +27,7 @@
   description: "Held weekly meetings with students on course project progress, facilitated responses to online content questions."
   ta: true
 
-  - institution: Georgia Institute of Technology  
+- institution: Georgia Institute of Technology  
   position: Undergraduate Teaching Assistant 
   location: "Atlanta, GA"
   year: Fall 2019, Spring 2020, Fall 2020 
