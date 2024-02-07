@@ -1,5 +1,5 @@
 ---
-layout: teaching
+layout: cv
 title: Teaching
 permalink: teaching/
 jsarr:
