@@ -1,38 +1,35 @@
 - institution: Georgia Institute of Technology
-  position: Graduate Teaching Assistant 
-  location: "Atlanta, GA"  
-  year: Spring 2022
-  class: "Big Data for Public Policy (PUBP 8751)"
-  instructor: Dr. Omar Asensio  
+  position: Graduate Teaching Assistant
+  location: "Atlanta, GA"
+  year: Spring 2019
+  class: "Information Visualization (CS 4460)"
+  instructor: Alex Endert
+  description: "Designed homeworks, held weekly office hours, and mentored student team projects for Information Visualization (CS 4460), an undergraduate course with 134 students enrolled."
   institution-url: http://gatech.edu
-  description: "Held weekly office hours, guest lectured on text data methods for policy analysis, delivered pre-course instruction on data analysis and statistics, designed problem sets."   
-  ta: true
- 
-- institution: Georgia Institute of Technology
-  position: Undergraduate Teaching Assistant
-  year: Spring 2021
-  class: "Principles of Macroeconomics (ECON 2105)"
-  instructor: Dr. Aselia Urmanbetova 
-  institution-url: http://gatech.edu 
-  description: "Held weekly office hours, one-on-one instructional sessions, and pre-exam review sessions for students." 
-  ta: true
-  
-- institution: Georgia Institute of Technology
-  position: Undergraduate Teaching Assistant
-  location: "Atlanta, GA" 
-  year: Summer 2020 
-  class: "Cost-Benefit Analysis (ECON 4412)"
-  instructor: Dr. Christine Ries 
-  institution-url: http://gatech.edu 
-  description: "Held weekly meetings with students on course project progress, facilitated responses to online content questions."
+  class-url: http://va.gatech.edu/courses/cs4460/
   ta: true
 
-- institution: Georgia Institute of Technology  
-  position: Undergraduate Teaching Assistant 
+- institution: Georgia Institute of Technology
+  position: Graduate Teaching Assistant
   location: "Atlanta, GA"
-  year: Fall 2019, Spring 2020, Fall 2020 
-  class: "The Global Economy (ECON 2101)"
-  instructor: Dr. Christine Ries
+  year: Spring 2017
+  class: "Data and Visual Analytics (CSE 6242 / CX 4242)"
+  instructor: Duen Horng (Polo) Chau
+  description: "Designed homeworks, held weekly office hours, and mentored student team projects for Data and Visual Analytics (CSE 6242 / CX 4242), a graduate course with 214 students enrolled."
   institution-url: http://gatech.edu
-  description: "Held pre-exam review sessions, assisted with creation of course exams."
+  class-url: http://poloclub.gatech.edu/cse6242/2017spring
   ta: true
+
+- institution: University of Georgia
+  position: Student Notetaker
+  location: "Athens, GA"
+  year: "2014 — 2015"
+  description: "Generated notes for undergraduate mathematics and physics courses for students with disabilities."
+  ta: false
+
+- institution: University of Georgia
+  position: Tutor
+  location: "Athens, GA"
+  year: "2012"
+  description: "Specialized in tutoring calculus to undergraduates."
+  ta: false
