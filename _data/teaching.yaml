@@ -1,12 +1,11 @@
 - institution: Georgia Institute of Technology
   position: Graduate Teaching Assistant
   location: "Atlanta, GA"
-  year: Spring 2019
-  class: "Information Visualization (CS 4460)"
-  instructor: Alex Endert
-  description: "Designed homeworks, held weekly office hours, and mentored student team projects for Information Visualization (CS 4460), an undergraduate course with 134 students enrolled."
+  year: Spring 2022
+  class: "Big Data for Public Policy (PUBP 8751)"
+  instructor: Omar Asensio
+  description: "Held weekly office hours, guest lectured on text data methods for policy analysis, delivered pre-course instruction on data analysis and statistics, designed problem sets."
   institution-url: http://gatech.edu
-  class-url: http://va.gatech.edu/courses/cs4460/
   ta: true
 
 - institution: Georgia Institute of Technology
