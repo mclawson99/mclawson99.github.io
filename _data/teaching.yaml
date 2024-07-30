@@ -3,8 +3,9 @@
   location: "Atlanta, GA"
   year: Fall 2024
   class: "Global Economics (ECON 2100)"
+  instructor: Cade Lawson
   institution-url: http://gsu.edu
-  ta: false
+  ta: true
 
 - institution: Georgia Institute of Technology
   position: Graduate Teaching Assistant
