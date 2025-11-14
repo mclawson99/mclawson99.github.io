@@ -23,10 +23,10 @@ title: Home
 	<div id="everything-else" class="l-middle">
 		<a href="Cade_Lawson_CV.pdf"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
 		<a href="{{ site.url }}/teaching"><div><i class="fa fa-shapes icon icon-right-space"></i>Teaching</div></a>
-		<!-- <a href="{{ site.url }}/everything-elseBREAK"><div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div></a>-->
+		<a href="{{ site.url }}/everything-elseBREAK"><div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div></a>
 	</div>
 	<div>
-		Welcome! I am a Ph.D. student in the Department of Economics at Georgia State University <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/gsu.png">. I research topics in <b>public economics</b> related to education policy, food security, and child wellbeing. I will be teaching ECON 4970, Data Science for Economists, at GSU this Spring. If you're interested or have any questions, please reach out!
+		Welcome! I am a Ph.D. student in the Department of Economics at Georgia State University <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/gsu.png">. I research topics in <b>public economics</b> related to education policy, food security, and child wellbeing. I will be teaching Data Science for Economists (ECON 4970) at GSU in Spring 2026. If you're interested or have any questions, please reach out!
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
