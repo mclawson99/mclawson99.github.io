@@ -1,0 +1,23 @@
+<div class="research-project">
+  <div class="research-project-title">{{ project.title }}</div>
+  <div class="research-project-metadata">
+    <span class="research-status">{{ project.status }}</span>
+    {% if project.pdf-url %}
+      <span class="metadata-separator">|</span>
+      <a href="{{ project.pdf-url }}" class="metadata-link">PDF</a>
+    {% endif %}
+    {% if project.code-url %}
+      <span class="metadata-separator">|</span>
+      <a href="{{ project.code-url }}" class="metadata-link">Replication Kit</a>
+    {% endif %}
+    {% if project.abstract %}
+      <span class="metadata-separator">|</span>
+      <a href="#" onclick="event.preventDefault(); var entry=this.closest('.research-project'); entry.classList.toggle('expanded'); var symbol=this.querySelector('.abstract-symbol'); symbol.innerText = entry.classList.contains('expanded') ? '-' : '+'; return false;" class="abstract-toggle">Abstract [<span class="abstract-symbol">+</span>]</a>
+    {% endif %}
+  </div>
+  <div class="research-project-content">
+    <blockquote class="research-abstract">
+      {{ project.abstract }}
+    </blockquote>
+  </div>
+</div>

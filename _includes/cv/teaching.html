@@ -1,20 +1,16 @@
-<div class="cv-left-date">{{ teach.year }}</div>
-<div>{% if teach.class-url %}<a href="{{ teach.class-url }}"><b>{{ teach.position }}</b></a>{% else %}<b>{{ teach.position }}</b>{% endif %}</div>
-<div><i><a href="{{ teach.institution-url }}">{{ teach.institution }}</a>, {{ teach.location }}</i></div>
-
-{% if teach.ta == true %}
-<div class="cv-description">
-<a href="{{ teach.class-url }}">{{ teach.class }}</a>,
-Instructor: 
-{% for person in teach.instructor %}
-{% if forloop.last == false %}
-	{% include person.html person=person %},	
-{% else if forloop.last == true %}
-	{% include person.html person=person %}
-{% endif %}
-{% endfor %}
+<div class="teach-entry">
+  <div class="cv-left-date">{{ teach.year }}</div>
+  <div class="teach-entry-main">
+    <div><b>{{ teach.class }}</b></div>
+    <div><i>{{ teach.institution }}</i>{% if teach.location %}, {{ teach.location }}{% endif %}</div>
+    {% if teach.course-number or teach.students or teach.evaluation or teach.syllabus-url %}
+    <div class="cv-description">
+      {% if teach.course-number %}{{ teach.course-number }}{% endif %}
+      {% if teach.students %}{% if teach.course-number %} • {% endif %}{{ teach.students }}{% endif %}
+      {% if teach.evaluation %}{% if teach.course-number or teach.students %} • {% endif %}Course Evaluations: <span class="teaching-evaluation-score">{{ teach.evaluation }}</span>{% endif %}
+      {% if teach.syllabus-url %}{% if teach.course-number or teach.students or teach.evaluation %} • {% endif %}<a href="{{ teach.syllabus-url }}">Syllabus</a>{% endif %}
+    </div>
+    {% endif %}
+  </div>
 </div>
-{% endif %}
-
-<div class="cv-description">{{ teach.description }}</div>
 <div class="cv-spacer"></div>

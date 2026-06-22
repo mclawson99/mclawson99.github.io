@@ -1,0 +1,56 @@
+- title: "Food Access and Student Achievement: Evidence from Federal Summer Meal Programs"
+  status: "Job Market Paper"
+  draft-note: "Draft available upon request"
+  pdf-url: 
+  code-url:
+  abstract: "Due to data sharing agreements, abstract and full draft are currently available by request."
+
+- title: "The Effect of Four-Day School Week Adoption on Teacher Retention and Sorting"
+  status: "Revise & Resubmit, Journal of Policy Analysis and Management"
+  pdf-url: https://edworkingpapers.com/ai25-1372
+  code-url:
+  abstract: "As teacher shortages worsen across the U.S., many school districts have implemented a unique solution to attract and retain effective teachers: switching from the traditional five-day school week to a four-day school week (4DSW). I use 17 years of teacher-level employment data from Texas in a difference-in-differences analysis to examine whether the 4DSW truly affects teacher retention and sorting across districts. I also introduce Google's PageRank algorithm as a revealed preference measure of school district attractiveness, ranking districts based on how teachers change workplaces over time in a network analysis. I find that the 4DSW decreases turnover by 2.7 percentage points (p.p.). This effect drives a 5.2 percentile increase in the statewide attractiveness rank of adopting districts, from the 39th to the 44th percentile. Districts with a four-day week also see a 5.1 p.p. increase in the share of entering teachers coming from other districts, suggesting substitution away from first-time teachers and those from outside the Texas public school system during hiring. However, the 4DSW causes no change in measures of PageRank that capture attractiveness to teachers in other districts, and has no effect on the experience or education levels of incoming cohorts of teachers."
+  media-coverage:
+      - label: "Education Week"
+        url: "https://www.edweek.org/leadership/do-4-day-school-weeks-attract-and-retain-better-teachers-what-the-largest-study-yet-says/2026/01"
+
+- title: "Removing Barriers to College Credits: Where and for Whom AP Exam Fee Waivers Work"
+  status: "Revise & Resubmit, Economics of Education Review"
+  pdf-url: https://edworkingpapers.com/sites/default/files/ai25-1345.pdf
+  code-url: 
+  abstract: "Do policies that broaden educational access also foster success? We study this question by analyzing North Carolina’s universal Advanced Placement (AP) exam fee waiver policy. Using student-course level administrative data, we exploit within-student variation on a sample of students who took multiple AP courses to estimate the policy's effect on exam participation (access) and pass rates (success). We find that the fee waivers significantly increased exam participation but had no overall effect on the pass rate for these enrollees. This, however, masks a robust 3 percentage point increase in the pass rates among low-SES students. We also find imprecise but suggestive evidence of gains among underrepresented minorities (non-Asian and non-White). A complementary analysis, leveraging the full sample of AP courses, shows that fee waivers had the greatest impact in courses where predicted financial barriers to exam participation were highest, and that the policy's benefits far exceed its cost. Finally, our results help reconcile the seemingly disparate findings from prior work on AP exam funding."
+  coauthors: "with Toufiq Rahman"
+  media-coverage:
+      - label: "Fordham Institute"
+        url: "https://fordhaminstitute.org/national/commentary/should-states-cover-ap-exam-costs-all-students"
+
+- title: "Teacher Effectiveness in Remote Instruction"
+  status: "Education Finance and Policy (2026)"
+  pdf-url: https://direct.mit.edu/edfp/article-abstract/doi/10.1162/EDFP.a.437/134949/Teacher-Effectiveness-in-Remote-Instruction?redirectedFrom=fulltext
+  code-url: 
+  coauthors: "with Tim Sass"
+  abstract: "The effect of remote learning on student performance has been a frequent topic of research and discussion in the aftermath of the COVID-19 pandemic, yet little is known about the impact of remote instruction on the performance of teachers. This study documents how relative effectiveness of teachers changed when moving from in-person to remote instruction and analyzes the characteristics of teachers associated with greater relative effectiveness during remote instruction. Using matched student/teacher-level data from three large metro-Atlanta school districts, we estimate teacher value-added models to measure the association between teacher characteristics and a teacher's relative contribution to test score growth before and during the period of virtual instruction in the 2020–21 school year. We find evidence of increased variation in overall teacher effectiveness during remote instruction, driven largely by changes in the relative performance of early elementary (K–2) and middle school teachers. Veteran teachers appear relatively more effective in virtual instruction than their less-experienced peers, with less-experienced teachers performing relatively worse regardless of in-person teaching ability. Finally, we find that the very best in-person teachers are more likely to experience large declines in relative effectiveness when shifting to remote instruction compared with a baseline period with in-person instruction."
+
+- title: "The Effect of Intensive Intervention for Children with Incarcerated Parents"
+  status: "In Progress"
+  coauthors: "with Lindsey Bullinger and David Phillips"
+
+- title: "Characterizing Teachers in State-Identified Schools"
+  status: "Georgia Policy Labs Report"
+  pdf-url: "https://gpl.gsu.edu/publications/characterizing-teachers-in-state-identified-schools/"
+  code-url:
+  category: "policy"
+
+- title: "Promoting Equitable Access to Effective Teachers"
+  status: "Georgia Policy Labs Report"
+  coauthors: "with Tim Sass"
+  pdf-url: "https://gpl.gsu.edu/publications/promoting-equitable-access-to-effective-teachers/"
+  code-url:
+  category: "policy"
+
+- title: "Teacher Effectiveness in Remote Instruction"
+  status: "Georgia Policy Labs Report"
+  coauthors: "with Tim Sass"
+  pdf-url: "https://gpl.gsu.edu/publications/teacher-effectiveness-in-remote-instruction/"
+  code-url:
+  category: "policy"

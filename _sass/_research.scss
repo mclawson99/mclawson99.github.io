@@ -1,0 +1,240 @@
+// Research Projects Styling - Academic Paper Style
+
+.research-listing {
+  grid-column: text / page-end;
+}
+
+/* Align the page header (when marked) with the research entries */
+.page-header.research-header {
+  grid-column: text;
+}
+
+.research-project {
+  position: relative;
+  margin-bottom: 1rem;
+  width: 100%;
+  max-width: 1040px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0rem;
+  padding-right: 1.6rem;
+}
+
+.research-project::before {
+  content: "\2192";
+  position: absolute;
+  left: -1.4rem;
+  top: 0.18rem;
+  font-size: 1rem;
+  color: #0366d6;
+}
+
+.research-project-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-bottom: 0.35rem;
+  color: var(--color-text);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
+.research-project-coauthors {
+  color: var(--color-text-secondary, #6a737d);
+  font-size: 0.95rem;
+  margin-top: 0.15rem;
+  margin-bottom: 0.4rem;
+}
+
+.research-project-metadata {
+  display: flex;
+  gap: 0.45rem;
+  font-size: 0.85rem;
+  margin-bottom: 0.45rem;
+  flex-wrap: nowrap;
+  align-items: center;
+  overflow-x: auto;
+  white-space: nowrap;
+  color: var(--color-text-secondary, #6a737d);
+
+  a {
+    color: #0366d6;
+    text-decoration: none;
+    cursor: pointer;
+    transition: text-decoration 0.2s ease;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.research-coauthors {
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: var(--color-text-secondary, #6a737d);
+}
+
+.research-project-media {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--color-text-secondary, #6a737d);
+  margin-bottom: 0.85rem;
+}
+
+.media-label {
+  font-weight: 600;
+}
+
+.research-project-media a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.research-project-media a:hover {
+  text-decoration: underline;
+}
+
+.research-status {
+  font-style: italic;
+  color: var(--color-text-secondary, #6a737d);
+  font-size: 0.95rem;
+  margin-right: 0.5rem;
+}
+
+.metadata-separator {
+  margin: 0 0.35rem;
+  color: var(--color-text-secondary, #6a737d);
+}
+
+.metadata-link {
+  color: #0366d6;
+  text-decoration: none;
+  transition: text-decoration 0.2s ease;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.abstract-bracket {
+  color: var(--color-text-secondary, #6a737d);
+}
+
+.abstract-bracket-symbol {
+  color: var(--color-text-secondary, #6a737d);
+  font-weight: 700;
+  margin-left: 0.3rem;
+}
+
+.abstract-toggle {
+  color: #0366d6;
+  cursor: pointer;
+  transition: text-decoration 0.2s ease;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 0.25rem;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.research-project-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+
+  .research-project.expanded & {
+    max-height: 1200px;
+  }
+}
+
+.research-abstract {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--color-text);
+  background-color: transparent;
+  border-left: 4px solid #0366d6;
+  padding: 0.65rem 1.4rem 0.65rem 1.35rem;
+  margin: 0.2rem 0 0 0;
+  max-width: 1040px;
+
+  p {
+    margin: 0;
+  }
+}
+
+.research-nav {
+  display: flex;
+  gap: 1.25rem;
+  font-size: 0.95rem;
+  margin-bottom: 1.2rem;
+}
+
+.research-nav a {
+  color: #0366d6;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.research-subtitle {
+  color: var(--color-text-secondary, #6a737d);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+  opacity: 0.9;
+}
+
+/* style for collapsible summary elements */
+details.research-section {
+  margin-bottom: 0.75rem;
+}
+
+details.research-section summary.research-subtitle {
+  list-style: none;
+  cursor: pointer;
+  outline: none;
+}
+
+/* remove default disclosure marker on WebKit to use native arrow or custom styling if desired */
+details.research-section summary::-webkit-details-marker {
+  display: inline-block;
+  color: var(--color-text-secondary, #6a737d);
+}
+
+/* indent content inside a collapsed section so its projects align with others */
+details.research-section > *:not(summary) {
+  margin-left: 0.15rem;
+  margin-top: 1rem;
+}
+
+/* add a small disclosure triangle before the summary text */
+details.research-section summary.research-subtitle::before {
+  content: "▸";
+  display: inline-block;
+  margin-right: 0.3rem;
+  transform: rotate(0deg);
+  transition: transform 0.12s ease;
+  color: #0366d6; /* blue disclosure icon */
+}
+
+/* align summary headings with the research entries */
+details.research-section summary.research-subtitle {
+  display: block;
+  margin-left: -0.6rem;
+  padding-left: 0;
+}
+
+/* rotate when open */
+details.research-section[open] summary.research-subtitle::before {
+  transform: rotate(90deg);
+}
+
+/* hide default marker across browsers */
+details.research-section summary::-webkit-details-marker { display: none; }
+details.research-section summary::marker { display: none; }
+

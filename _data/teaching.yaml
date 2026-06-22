@@ -1,48 +1,47 @@
 - institution: Georgia State University
   position: Instructor of Record
-  location: "Atlanta, GA"
-  year: Fall 2024
-  class: "Global Economics (ECON 2100)"
-  instructor: Cade Lawson
-  institution-url: http://gsu.edu
-  ta: true
+  year: Spring 2026
+  class: "Data Science for Economists"
+  course-number: "ECON 4970"
+  students: "35 students"
+  evaluation: "4.9 / 5"
+  syllabus-url: "/ECON_4970_Syllabus_S26.pdf"
+  ta: false
+
+- institution: Georgia State University
+  position: Instructor of Record
+  year: Fall 2024, Spring 2025
+  class: "The Global Economy"
+  course-number: "ECON 2100"
+  students: "100 students / section"
+  evaluation: "4.9 / 5"
+  syllabus-url: "/ECON_2100_Syllabus_S25.pdf"
+  ta: false
 
 - institution: Georgia Institute of Technology
-  position: Graduate Teaching Assistant
-  location: "Atlanta, GA"
+  position: Teaching Assistant
   year: Spring 2022
-  class: "Big Data for Public Policy (PUBP 8751)"
-  instructor: Omar Asensio
-  description: "Held weekly office hours, guest lectured on text data methods for policy analysis, delivered pre-course instruction on data analysis and statistics, designed problem sets."
-  institution-url: http://gatech.edu
+  class: "Big Data for Policy"
+  course-number: "PUBP 8751"
   ta: true
 
 - institution: Georgia Institute of Technology
-  position: Undergraduate Teaching Assistant
-  location: "Atlanta, GA"
+  position: Teaching Assistant
   year: Spring 2021
-  class: "Principles of Macroeconomics (ECON 2105)"
-  instructor: Aselia Urmanbetova
-  description: "Held weekly office hours, one-on-one instructional sessions, and pre-exam review sessions for students."
-  institution-url: http://gatech.edu
+  class: "Principles of Macroeconomics"
+  course-number: "ECON 2105"
   ta: true
 
 - institution: Georgia Institute of Technology
-  position: Undergraduate Teaching Assistant
-  location: "Atlanta, GA"
+  position: Teaching Assistant
   year: Summer 2020
-  class: "Cost-Benefit Analysis (ECON 4412)"
-  instructor: Christine Ries
-  description: "Held weekly meetings with students on course project progress, facilitated responses to online content questions."
-  institution-url: http://gatech.edu
+  class: "Cost-Benefit Analysis"
+  course-number: "ECON 4412"
   ta: true
 
 - institution: Georgia Institute of Technology
-  position: Undergraduate Teaching Assistant
-  location: "Atlanta, GA"
-  year: Fall 2019, Spring 2020, Fall 2020 
-  class: "The Global Economy (ECON 2101)"
-  instructor: Christine Ries
-  description: "Held pre-exam review sessions, assisted with creation of course exams."
-  institution-url: http://gatech.edu
+  position: Teaching Assistant
+  year: Fall 2019, Spring 2020, Fall 2020
+  class: "The Global Economy"
+  course-number: "ECON 2101"
   ta: true

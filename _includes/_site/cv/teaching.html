@@ -1,0 +1,9 @@
+<div class="cv-left-date">{{ teach.year }}</div>
+<div><b>{{ teach.class }}</b></div>
+<div><i>{{ teach.institution }}</i>, {{ teach.location }}</div>
+
+<div class="cv-description">
+  {{ teach.course-number }} • {{ teach.students }} students • Eval: {{ teach.evaluation }}
+  {% if teach.syllabus-url %}• <a href="{{ teach.syllabus-url }}">Syllabus</a>{% endif %}
+</div>
+<div class="cv-spacer"></div>

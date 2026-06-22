@@ -21,21 +21,20 @@ title: Home
 	</div>
 	<!-- <hr class="l-middle home-hr"> -->
 	<div id="everything-else" class="l-middle">
-		<a href="Cade_Lawson_CV.pdf"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
+		<a href="{{ site.url }}/research"><div><i class="fa fa-flask icon icon-right-space"></i>Research</div></a>
 		<a href="{{ site.url }}/teaching"><div><i class="fa fa-shapes icon icon-right-space"></i>Teaching</div></a>
-		<a href="{{ site.url }}/everything-elseBREAK"><div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div></a>
+		<a href="{{ site.url }}/cv"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
 	</div>
 	<div>
-		Welcome! I am a Ph.D. candidate in the Department of Economics at Georgia State University <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/gsu.png">. I research topics in <b>public economics</b> related to education policy, food security, and child wellbeing. I will be teaching Data Science for Economists (ECON 4970) at GSU in Spring 2026. If you're interested or have any questions, please reach out!
-	</div>
-	<div style="height: 1rem"></div>
-	<div>
-		I am a graduate research assistant in the <a href="https://gpl.gsu.edu/">Georgia Policy Labs</a>, where I work in the Metro Atlanta Policy Lab for Education. My research at GSU is supported by the National Science Foundation's Graduate Research Fellowship.  
-		
+		Welcome! I am a Ph.D. candidate in the Department of Economics at Georgia State University <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/gsu.png">. I research topics in <b>public economics</b> related to education policy, food security, and child wellbeing. I am a graduate research assistant in the <a href="https://gpl.gsu.edu/">Georgia Policy Labs</a>. 
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
-		I received my BS in Economics and my MS in Data Analytics from Georgia Tech <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/gt.png">, where I was a research assistant in the <a href="https://datasciencepolicy.gatech.edu/">Data Science and Policy Lab</a> working on applications of machine learning to energy and environmental policy. I've also spent time as a research intern at the National Renewable Energy Lab <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/nrel.png"> and the Federal Reserve Bank of Boston <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/frb.jpeg">. 
+		In Fall 2026, I will join the Jimmy and Rosalynn Carter School of Public Policy at Georgia Tech <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/gt.png"> as a Postdoctoral Fellow.
+	</div>
+	<div style="height: 1rem"></div>
+	<div>
+		My research at GSU is supported by the National Science Foundation's Graduate Research Fellowship. I received my BS in Economics and MS in Data Analytics from Georgia Tech <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/gt.png">. I've also spent time as a research intern at the National Lab of the Rockies <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/nlr.jpg"> and the Federal Reserve Bank of Boston <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/frb.jpeg">. 
   
 	</div>
 </div>

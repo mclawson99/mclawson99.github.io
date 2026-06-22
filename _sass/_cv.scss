@@ -4,8 +4,32 @@
 }
 
 #cv > * {
-	grid-column: text-start / page-end;
+	grid-column: page-start / page-end;
 	// font-size: 1em;
+}
+
+#cv > .teaching-listing {
+	grid-column: text / page-end;
+	width: 100%;
+}
+
+#cv > .page-header {
+	grid-column: text / page-end;
+	margin-bottom: 0.7rem;
+}
+
+.page-header {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	justify-content: space-between;
+	gap: 1rem;
+	margin-top: 2rem;
+	margin-bottom: 1.5rem;
+}
+
+.page-header .page-title {
+	margin: 0;
 }
 
 #cv a {
@@ -47,6 +71,114 @@
 #cv h3 {
 	font-weight: 300;
 	margin-top: 0rem;
+}
+
+.teaching-subtitle {
+	color: var(--color-text-secondary, #6a737d);
+	font-size: 1.15rem;
+	font-weight: 600;
+	margin-top: 1.1rem;
+	margin-bottom: 0.45rem;
+	opacity: 0.95;
+}
+
+details.teaching-section {
+	margin-bottom: 0.8rem;
+}
+
+details.teaching-section summary.teaching-subtitle {
+	list-style: none;
+	cursor: pointer;
+	outline: none;
+	display: block;
+	margin-left: 0;
+	padding-left: 0;
+	position: relative;
+}
+
+details.teaching-section summary.teaching-subtitle::before {
+	content: "▸";
+	position: absolute;
+	left: -0.9rem;
+	top: 0.02rem;
+	transform: rotate(0deg);
+	transition: transform 0.12s ease;
+	color: #0366d6;
+}
+
+details.teaching-section[open] summary.teaching-subtitle::before {
+	transform: rotate(90deg);
+}
+
+details.teaching-section summary::-webkit-details-marker { display: none; }
+details.teaching-section summary::marker { display: none; }
+
+details.teaching-section > *:not(summary) {
+	margin-top: 0.2rem;
+	margin-left: 0.9rem;
+}
+
+.teach-entry {
+	position: relative;
+	display: block;
+	margin-bottom: 0.28rem;
+	width: 100%;
+	max-width: none;
+	margin-left: 0;
+	margin-right: 0;
+	padding-right: 11rem;
+}
+
+.teach-entry-main {
+	min-width: 0;
+	grid-column: 1;
+	position: relative;
+}
+
+.teach-entry-main::before {
+	content: "\2192";
+	position: absolute;
+	left: -1.4rem;
+	top: 0.18rem;
+	font-size: 1rem;
+	color: #0366d6;
+}
+
+.teach-entry .cv-left-date {
+	position: absolute;
+	right: 0;
+	top: 0.02rem;
+	width: auto;
+	display: block;
+	text-align: right;
+	line-height: 1.25;
+	white-space: nowrap;
+}
+
+.teaching-evaluation-score {
+	color: #7fbf7f;
+}
+
+.teach-entry + .cv-spacer {
+	height: 0.32rem;
+}
+
+@media screen and (max-width: $mobile) {
+	.teach-entry {
+		grid-template-columns: 1fr;
+		padding-right: 0;
+	}
+
+	.teach-entry-main::before {
+		left: -1.15rem;
+	}
+
+	.teach-entry .cv-left-date {
+		position: static;
+		width: auto;
+		text-align: left;
+		margin-bottom: 0.25rem;
+	}
 }
 
 .cv-ai {

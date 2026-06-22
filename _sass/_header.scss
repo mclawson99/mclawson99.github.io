@@ -27,6 +27,51 @@
     font-size: 0.9rem;
 }
 
+.masthead-connector {
+    position: relative;
+    flex: 1;
+    min-width: 2.5rem;
+    margin-left: -1rem;
+    padding-left: 0.52rem;
+    height: 3px;
+    margin-right: 0.9rem;
+    opacity: 0.95;
+    border-radius: 999px;
+    background-clip: content-box;
+    background: linear-gradient(
+        to bottom,
+        #7aa6d8 0 calc(50% - 0.5px),
+        #ffffff calc(50% - 0.5px) calc(50% + 0.5px),
+        #7aa6d8 calc(50% + 0.5px) 100%
+    );
+}
+
+.masthead-connector::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 0.62rem;
+    height: 0.62rem;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    border: 2px solid #7aa6d8;
+    background: #ffffff;
+    box-sizing: border-box;
+}
+
+.masthead-connector::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -0.18rem;
+    width: 0.36rem;
+    height: 0.36rem;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: #7aa6d8;
+}
+
 nav > a {
 	background-color: $black-025;
 	border-radius: 5rem;
@@ -62,6 +107,10 @@ nav > a:hover {
     #masthead > nav {
         grid-column: page;
         justify-content: flex-start;
+    }
+
+    .masthead-connector {
+        display: none;
     }
 
 }

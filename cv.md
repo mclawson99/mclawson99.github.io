@@ -6,11 +6,32 @@ jsarr:
 - js/scripts.js
 ---
 
-# Teaching
+{% assign instructor_courses = site.data.teaching | where: "ta", false %}
+{% assign ta_courses = site.data.teaching | where: "ta", true %}
 
-{% for teach in site.data.teaching %}
-{% include cv/teaching.html teach=teach %}
-{% endfor %}
+<div class="teaching-listing">
+
+<p>During my time at GSU, I have served as instructor of record for undergraduate courses on applied data science and international trade. My detailed student evaluations are available upon request.</p>
+
+<details class="teaching-section" open>
+	<summary class="teaching-subtitle">Instructor of Record</summary>
+
+	{% for teach in instructor_courses %}
+	{% include cv/teaching.html teach=teach %}
+	{% endfor %}
+
+</details>
+
+<details class="teaching-section">
+	<summary class="teaching-subtitle">Teaching Assistantships</summary>
+
+	{% for teach in ta_courses %}
+	{% include cv/teaching.html teach=teach %}
+	{% endfor %}
+
+</details>
+
+</div>
 
 [cv]: {{ site.url }}/cv.pdf "My CV."
 

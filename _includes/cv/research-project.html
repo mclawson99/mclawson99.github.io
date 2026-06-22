@@ -1,0 +1,37 @@
+<div class="research-project">
+  <div class="research-project-title">{{ project.title }}{% if project.coauthors %} <span class="research-coauthors">({{ project.coauthors }})</span>{% endif %}</div>
+  <div class="research-project-metadata">
+    {% if project.status %}
+      <span class="research-status">{{ project.status }}</span>
+      {% if project.draft-note or project.pdf-url or project.code-url or project.abstract %}<span class="metadata-separator">|</span>{% endif %}
+    {% endif %}
+    {% if project.draft-note %}
+      <span class="metadata-note">{{ project.draft-note }}</span>
+      {% if project.code-url or project.abstract %}<span class="metadata-separator">|</span>{% endif %}
+    {% endif %}
+    {% if project.pdf-url %}
+      <a href="{{ project.pdf-url }}" class="metadata-link">PDF</a>
+      {% if project.code-url or project.abstract %}<span class="metadata-separator">|</span>{% endif %}
+    {% endif %}
+    {% if project.code-url %}
+      <a href="{{ project.code-url }}" class="metadata-link">Replication Kit</a>
+      {% if project.abstract %}<span class="metadata-separator">|</span>{% endif %}
+    {% endif %}
+    {% if project.abstract %}
+      <a href="#" onclick="event.preventDefault(); var entry=this.closest('.research-project'); entry.classList.toggle('expanded'); var symbol=this.querySelector('.abstract-symbol'); symbol.innerText = entry.classList.contains('expanded') ? '-' : '+'; return false;" class="abstract-toggle">Abstract [<span class="abstract-symbol">+</span>]</a>
+    {% endif %}
+  </div>
+  {% if project.media-coverage %}
+    <div class="research-project-media">
+      <span class="media-label">Media:</span>
+      {% for item in project.media-coverage %}
+        <a href="{{ item.url }}">{{ item.label }}</a>{% if forloop.last == false %}, {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
+  <div class="research-project-content">
+    <blockquote class="research-abstract">
+      {{ project.abstract }}
+    </blockquote>
+  </div>
+</div>

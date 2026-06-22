@@ -2,9 +2,14 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   {% include head.html %}
   <body>
+    {% include header.html %}
     <main id="cv">
+      <div class="page-header">
+        <h1 class="page-title">{{ page.title }}</h1>
+      </div>
       {{ content }}
     </main>
+    {% include footer.html %}
     {% if page.jsarr %}
       {% for js in page.jsarr %}
         <script>
