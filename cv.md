@@ -11,7 +11,7 @@ jsarr:
 
 <div class="teaching-listing">
 
-<p>During my time at GSU, I have served as instructor of record for undergraduate courses on applied data science and international trade. My detailed student evaluations are available upon request.</p>
+<p>I have served as instructor of record for undergraduate courses on applied data science and international trade. I care deeply about teaching well and work hard to design effective courses. My detailed student evaluations and the course materials I've created are available upon request.</p>
 
 <details class="teaching-section" open>
 	<summary class="teaching-subtitle">Instructor of Record</summary>
