@@ -3,7 +3,7 @@
   draft-note: "Draft available upon request"
   pdf-url: 
   code-url:
-  abstract: "Due to data sharing agreements, abstract and full draft are currently available by request."
+  abstract: "Many of the 26 million U.S. children who rely on free or reduced-price meals at school lose reliable access to food when the summer begins. However, little evidence has emerged on how poor geographic food access affects student achievement in school. I study this question by leveraging within-child changes in distance to federally-funded summer meal sites and a student-level panel following 250,000 students per year in the metro-Atlanta area. I find that an additional mile of distance to the nearest meal site reduces student achievement by 1-3% of a standard deviation in reading and math, with the strongest effects for elementary-aged and low-income students. Approximately 80% of free/reduced-price meal eligible students live within 1 mile of a meal site, but reducing restrictions on where sites can locate does not affect access for the remaining 20%. Results point to summer meal programs as a cost-effective part of the U.S. social safety net."
 
 - title: "The Effect of Four-Day School Week Adoption on Teacher Retention and Sorting"
   status: "Revise & Resubmit, Journal of Policy Analysis and Management"
@@ -34,6 +34,14 @@
 - title: "The Effect of Intensive Intervention for Children with Incarcerated Parents"
   status: "In Progress"
   coauthors: "with Lindsey Bullinger and David Phillips"
+
+- title: "Gains, Losses, and Stickiness in Public Finance: Evidence from School Tax Referenda"
+  status: "In Progress"
+  coauthors: "with Toufiq Rahman"
+
+- title: "The Academic Effects of Rental Assistance for Students"
+  status: "In Progress"
+  coauthors: "with Thomas Goldring"
 
 - title: "Characterizing Teachers in State-Identified Schools"
   status: "Georgia Policy Labs Report"

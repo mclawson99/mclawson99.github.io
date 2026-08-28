@@ -18,12 +18,20 @@ $cv-icon-aspect-ratio: 1.33;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	width: 13rem;
+	height: 13rem;
+	border-radius: 50%;
+	overflow: hidden;
+	flex-shrink: 0;
 }
 
 #intro-image {
-	border-radius: 7rem;
-	height: 13rem;
-	width: 13rem;
+	display: block;
+	height: 170%;
+	width: 170%;
+	object-fit: cover;
+	object-position: center 50%;
+	border-radius: 50%;
 }
 
 #intro-title-text-wrapper {
@@ -171,9 +179,13 @@ $cv-icon-aspect-ratio: 1.33;
 }
 
 @media screen and (max-width: $mobile) {
-	#intro-image {
-		height: 5rem;
+	#intro-image-wrapper {
 		width: 5rem;
+		height: 5rem;
+	}
+
+	#intro-image {
+		object-position: center center;
 	}
 
 	#intro-title {
